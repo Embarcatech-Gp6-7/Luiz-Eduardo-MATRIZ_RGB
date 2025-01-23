@@ -51,56 +51,51 @@ int main()
                 break;
             case '1':
                 renderMatrix(CHAR_1);
-                Tecla1();
-                
+                // Tecla1();             
                 break;
             case '2':
                 renderMatrix(CHAR_2);
-                tecla2();
-
+                // tecla2();
                 break;
             case '3':
                 renderMatrix(CHAR_3);
-                tecla3();
+                // tecla3();
                 break;
             case '4':
                 renderMatrix(CHAR_4);
-                Tecla4();
+                // Tecla4();
                 break;
             case '5':
                 renderMatrix(CHAR_5);
-                tecla5();
+                // tecla5();
                 break;
             case '6':
                 renderMatrix(CHAR_6);
-                Tecla6();
+                // Tecla6();
                 break;
             case '7':
                 renderMatrix(CHAR_7);
-                Tecla7();
+                // Tecla7();
                 break;
             case '8':
                 renderMatrix(CHAR_8);
-                Tecla8();
+                // Tecla8();
                 break;
             case '9':
-                renderMatrix(CHAR_9);
+                // renderMatrix(CHAR_9);
                 tecla9();
-
                 break;
             case 'A':
                 renderMatrix(CHAR_A);
-                teclaA();
-
+                // teclaA();
                 break;
             case 'B':
                 renderMatrix(CHAR_B);
-                teclaB();
+                // teclaB();
                 break;
             case 'C':
                 renderMatrix(CHAR_C);
-                teclac();
-
+                // teclac();
                 break;
             case 'D':
                 renderMatrix(CHAR_D);
@@ -108,7 +103,7 @@ int main()
                 break;
             case '*':
                 renderMatrix(CHAR_AST);
-                tecla_asterisco();
+                // tecla_asterisco();
 
                 break;
             case '#':

@@ -6,6 +6,7 @@
 #include <stdio.h>
 
 #include "../U4T1.h"
+#include "../neopixel/neopixel.h"
 
 void Tecla1();
 void tecla2();
