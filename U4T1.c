@@ -44,43 +44,42 @@ int main()
 
     while (true) {
         char key = getKey();
-        // renderMatrix(CHAR_7);
-         Tecla7();
+       
 
         switch(key) {
             case '0':
-                renderMatrix(CHAR_0);
+                // renderMatrix(CHAR_0);
                 break;
             case '1':
-                renderMatrix(CHAR_1);
+                // renderMatrix(CHAR_1);
                 // Tecla1();             
                 break;
             case '2':
-                renderMatrix(CHAR_2);
+                // renderMatrix(CHAR_2);
                 // tecla2();
                 break;
             case '3':
-                renderMatrix(CHAR_3);
+                // renderMatrix(CHAR_3);
                 // tecla3();
                 break;
             case '4':
-                renderMatrix(CHAR_4);
+                // renderMatrix(CHAR_4);
                 // Tecla4();
                 break;
             case '5':
-                renderMatrix(CHAR_5);
-                // tecla5();
+                // renderMatrix(CHAR_5);
+                tecla5();
                 break;
             case '6':
-                renderMatrix(CHAR_6);
+                // renderMatrix(CHAR_6);
                 // Tecla6();
                 break;
             case '7':
                 // renderMatrix(CHAR_7);
-                // Tecla7();
+                Tecla7();
                 break;
             case '8':
-                renderMatrix(CHAR_8);
+                // renderMatrix(CHAR_8);
                 // Tecla8();
                 break;
             case '9':
@@ -88,28 +87,28 @@ int main()
                 tecla9();
                 break;
             case 'A':
-                renderMatrix(CHAR_A);
+                // renderMatrix(CHAR_A);
                 // teclaA();
                 break;
             case 'B':
-                renderMatrix(CHAR_B);
+                // renderMatrix(CHAR_B);
                 // teclaB();
                 break;
             case 'C':
-                renderMatrix(CHAR_C);
+                // renderMatrix(CHAR_C);
                 // teclac();
                 break;
             case 'D':
-                renderMatrix(CHAR_D);
+                // renderMatrix(CHAR_D);
 
                 break;
             case '*':
-                renderMatrix(CHAR_AST);
+                // renderMatrix(CHAR_AST);
                 // tecla_asterisco();
 
                 break;
             case '#':
-                renderMatrix(CHAR_JG_VELHA);
+                // renderMatrix(CHAR_JG_VELHA);
 
                 break;
             

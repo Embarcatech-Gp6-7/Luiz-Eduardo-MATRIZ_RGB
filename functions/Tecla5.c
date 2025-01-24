@@ -1,7 +1,7 @@
 #include "functions.h"
 
 
-void Tecla5() {
+void tecla5() {
 
     uint32_t new_piskel_data[5][5] = {
 
