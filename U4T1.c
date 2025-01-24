@@ -44,6 +44,7 @@ int main()
 
     while (true) {
         char key = getKey();
+       
 
         switch(key) {
             case '0':
