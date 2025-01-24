@@ -44,6 +44,8 @@ int main()
 
     while (true) {
         char key = getKey();
+        // renderMatrix(CHAR_7);
+         Tecla7();
 
         switch(key) {
             case '0':
@@ -74,7 +76,7 @@ int main()
                 // Tecla6();
                 break;
             case '7':
-                renderMatrix(CHAR_7);
+                // renderMatrix(CHAR_7);
                 // Tecla7();
                 break;
             case '8':
