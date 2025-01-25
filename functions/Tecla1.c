@@ -13,7 +13,7 @@ uint32_t imagem[5][5]={
 };
 
 renderRGBMatrix(imagem);
-  sleep_ms(500);
+  sleep_ms(750);
 
 uint32_t imagem2[5][5]={
 
@@ -26,7 +26,7 @@ uint32_t imagem2[5][5]={
 };
 
 renderRGBMatrix(imagem2);
-  sleep_ms(500);
+  sleep_ms(750);
 
   uint32_t imagem3[5][5]={
 
@@ -39,7 +39,34 @@ renderRGBMatrix(imagem2);
   };
 
   renderRGBMatrix(imagem3);
-  sleep_ms(500);
+  sleep_ms(750);
+
+uint32_t imagem4[5][5]={
+
+    { 0x000000,   0xff0000,   0x000000,   0x000000,   0x000000 },
+    { 0x000000,   0xff0000,   0x000000,   0x000000,   0x000000 },
+    { 0xff0000,   0xff0000,   0xff0000,   0xff0000,   0xff0000 },
+    { 0x000000,   0xff0000,   0x000000,   0x000000,   0x000000 },
+    { 0x000000,   0xff0000,   0x000000,   0x000000,   0x000000 }
+
+
+};
+
+renderRGBMatrix(imagem4);
+  sleep_ms(750);
+
+uint32_t imagem5[5][5]={
+
+    { 0x000000,   0x00ff00,   0x00ff00,   0x00ff00,   0x00ff00 },
+    { 0x000000,   0x000000,   0x00ff00,   0x00ff00,   0x00ff00 },
+    { 0x000000,   0x000000,   0x00ff00,   0x00ff00,   0x00ff00 },
+    { 0x000000,   0x00ff00,   0x000000,   0x000000,   0x00ff00 },
+    { 0x00ff00,   0x000000,   0x000000,   0x000000,   0x000000 }
+
+};
+
+renderRGBMatrix(imagem5);
+  sleep_ms(750);
 
 
 }
