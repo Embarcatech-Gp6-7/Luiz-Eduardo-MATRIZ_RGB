@@ -1,3 +1,4 @@
+#include "functions.h"
 void Tecla8() {
     // Frame 1: Emaranhado
     uint32_t frame1[5][5] = {
