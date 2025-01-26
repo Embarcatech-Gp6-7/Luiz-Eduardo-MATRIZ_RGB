@@ -10,7 +10,7 @@
 
 void Tecla1();
 void tecla2();
-void tecla3();
+void Tecla3();
 void Tecla4();
 void tecla5();
 void Tecla6();
