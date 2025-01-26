@@ -10,4 +10,6 @@ void teclaB() {
   };
 
   renderRGBMatrix(imgB);
+    sleep_ms(500);
+
 }
