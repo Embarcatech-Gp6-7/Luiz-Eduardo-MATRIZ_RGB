@@ -60,7 +60,7 @@ int main()
                 break;
             case '3':
                 // renderMatrix(CHAR_3);
-                // tecla3();
+                Tecla3();
                 break;
             case '4':
                 // renderMatrix(CHAR_4);

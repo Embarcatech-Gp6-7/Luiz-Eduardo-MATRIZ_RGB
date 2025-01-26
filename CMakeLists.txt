@@ -43,6 +43,7 @@ add_executable(
     functions/tecla9.c
     functions/Tecla7.c
     functions/Tecla1.c
+    functions/Tecla3.c
 )
 
 pico_set_program_name(U4T1 "U4T1")
