@@ -51,16 +51,16 @@ int main()
                 // renderMatrix(CHAR_0);
                 break;
             case '1':
-                // renderMatrix(CHAR_1);
-                // Tecla1();             
+                //renderMatrix(CHAR_1);
+                Tecla1();             
                 break;
             case '2':
                 // renderMatrix(CHAR_2);
-                // tecla2();
+                tecla2();
                 break;
             case '3':
                 // renderMatrix(CHAR_3);
-                // tecla3();
+                Tecla3();
                 break;
             case '4':
                 // renderMatrix(CHAR_4);
@@ -80,7 +80,7 @@ int main()
                 break;
             case '8':
                 // renderMatrix(CHAR_8);
-                // Tecla8();
+                Tecla8();
                 break;
             case '9':
                 // renderMatrix(CHAR_9);
@@ -88,19 +88,19 @@ int main()
                 break;
             case 'A':
                 // renderMatrix(CHAR_A);
-                // teclaA();
+                teclaA();
                 break;
             case 'B':
                 // renderMatrix(CHAR_B);
-                // teclaB();
+                teclaB();
                 break;
             case 'C':
                 // renderMatrix(CHAR_C);
-                // teclac();
+                teclaC();
                 break;
             case 'D':
                 // renderMatrix(CHAR_D);
-
+                teclaD();
                 break;
             case '*':
                 // renderMatrix(CHAR_AST);
@@ -109,7 +109,7 @@ int main()
                 break;
             case '#':
                 // renderMatrix(CHAR_JG_VELHA);
-
+               tecla_hash();
                 break;
             
 

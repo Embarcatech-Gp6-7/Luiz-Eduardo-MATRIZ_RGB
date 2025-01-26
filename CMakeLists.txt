@@ -44,11 +44,21 @@ add_executable(
     functions/Tecla_hash.c
     functions/Tecla5.c
     functions/tecla9.c
+    functions/Tecla8.c
     functions/Tecla7.c
+    functions/Tecla5.c
+    functions/Tecla2.c
+    functions/Tecla1.c
+    functions/Tecla3.c
     functions/TeclaA.c
     functions/TeclaB.c
     functions/TeclaC.c
     functions/TeclaD.c
+    functions/Tecla_hash.c
+
+
+
+
 )
 
 pico_set_program_name(U4T1 "U4T1")

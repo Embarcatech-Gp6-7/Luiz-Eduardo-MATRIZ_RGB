@@ -10,7 +10,7 @@
 
 void Tecla1();
 void tecla2();
-void tecla3();
+void Tecla3();
 void Tecla4();
 void tecla5();
 void Tecla6();
@@ -19,7 +19,9 @@ void Tecla8();
 void tecla9();
 void teclaA();
 void teclaB();
-void teclac();
+void teclaC();
+void teclaD();
 void tecla_asterisco();
+void tecla_hash();
 
 #endif
