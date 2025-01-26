@@ -42,6 +42,8 @@ int main()
     initBuzzerPwm();
     initNeoPixel();
 
+
+
     while (true) {
         char key = getKey();
        
@@ -104,7 +106,7 @@ int main()
                 break;
             case '*':
                 // renderMatrix(CHAR_AST);
-                // tecla_asterisco();
+                tecla_asterisco();
 
                 break;
             case '#':

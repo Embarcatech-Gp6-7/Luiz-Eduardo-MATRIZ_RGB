@@ -40,6 +40,9 @@ add_executable(
     U4T1.c
     keypad/keypad.c
     neopixel/neopixel.c
+    functions/Tecla_aste.c
+    functions/Tecla_hash.c
+    functions/Tecla5.c
     functions/tecla9.c
     functions/Tecla8.c
     functions/Tecla7.c
@@ -71,6 +74,7 @@ target_link_libraries(
     pico_stdlib
     hardware_pwm
     hardware_pio
+    pico_bootrom
 )
 
 # Add the standard include files to the build
