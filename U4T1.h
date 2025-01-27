@@ -7,9 +7,6 @@
 #include "keypad/keypad.h"
 #include "neopixel/neopixel.h"
 
-#define LED_VERDE       11
-#define LED_AZUL        12
-#define LED_VERMELHO    13
 
 #define BUZZER          21
 
