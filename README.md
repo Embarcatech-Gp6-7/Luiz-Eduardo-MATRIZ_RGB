@@ -39,7 +39,7 @@ Este projeto implementa um teclado matricial 4x4 conectado a um microcontrolador
 
 ### O código está dividido em vários arquivos para melhor organização:
 
-- **`U4T1.C:**`: Código com a função de loop principal: lê as teclas e chama as funções de animação.
+- **`U4T1.C`**: Código com a função de loop principal: lê as teclas e chama as funções de animação.
 - **`functions.c/.h`:** Funções de animação para cada tecla do NeoPixel.
 - **`keypad.c/.h`:** Inicializa e lê o teclado matricial.
 - **`neopixel.c/.h`:** Controla o display NeoPixel (inicialização e envio de cores).
