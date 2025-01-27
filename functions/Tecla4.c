@@ -7,7 +7,7 @@ void Tecla4() {
         { 0x000000, 0x000000, 0x000000, 0x000000, 0xff0000 }
     };
     renderRGBMatrix(frame1);
-    sleep_ms(200);
+    sleep_ms(150);
 
     uint32_t frame2[5][5] = {
         { 0x0000ff, 0x000000, 0x000000, 0x000000, 0x000000 },
@@ -17,7 +17,7 @@ void Tecla4() {
         { 0x000000, 0x000000, 0x000000, 0x000000, 0x0000ff }
     };
     renderRGBMatrix(frame2);
-    sleep_ms(200);
+    sleep_ms(150);
 
     uint32_t frame3[5][5] = {
         { 0x00ff00, 0x00ff00, 0x000000, 0x000000, 0x000000 },
@@ -27,7 +27,7 @@ void Tecla4() {
         { 0x000000, 0x000000, 0x000000, 0x000000, 0x00ff00 }
     };
     renderRGBMatrix(frame3);
-    sleep_ms(200);
+    sleep_ms(150);
 
     uint32_t frame4[5][5] = {
         { 0xff00ff, 0x000000, 0x000000, 0x000000, 0x000000 },
@@ -37,7 +37,7 @@ void Tecla4() {
         { 0x000000, 0x000000, 0x000000, 0x000000, 0xff00ff }
     };
     renderRGBMatrix(frame4);
-    sleep_ms(200);
+    sleep_ms(150);
 
     uint32_t frame5[5][5] = {
         { 0x000000, 0x000000, 0x000000, 0x000000, 0x000000 },
@@ -47,5 +47,6 @@ void Tecla4() {
         { 0x000000, 0x000000, 0x000000, 0x000000, 0x000000 }
     };
     renderRGBMatrix(frame5);
-    sleep_ms(200);
+    sleep_ms(150);
 }
+
