@@ -70,7 +70,8 @@ Este projeto implementa um teclado matricial 4x4 conectado a um microcontrolador
 
 ## Diagrama de Conexões 💡:
 
-![image](![image](https://github.com/user-attachments/assets/2f241ca3-d89f-442e-8942-bfeeb4929315)
+
+(![image](https://github.com/user-attachments/assets/2f241ca3-d89f-442e-8942-bfeeb4929315)
 
 
 ## Funcionamento do Loop Principal 🔄
