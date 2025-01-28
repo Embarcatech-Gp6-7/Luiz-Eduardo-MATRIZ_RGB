@@ -108,6 +108,8 @@ O loop while (true) garante execução contínua. A função getKey() lê a tecl
 - Permitir a configuração das cores e animações pelo usuário.
   
  ## 🔗 Link do Vídeo de Funcionamento:
+ 
+https://drive.google.com/file/d/1GksRqQduX8ZjDyteT7xIW6FTkl2vY06h/view?usp=drivesdk
 
  ## Contribuições 🤝
 
